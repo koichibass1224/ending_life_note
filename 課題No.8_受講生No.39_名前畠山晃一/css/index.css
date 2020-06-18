@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'serif';
+  }
+  /*necesarry for scroll*/
+  .section1{
+    background-image: url("../img/top_1.jpg");
+    background-size: cover;
+    background-position: center ;
+  }
+  .section2{
+    background-image: url("../img/top_2.jpg");
+    background-size: cover;
+    background-position: center 50% ;
+  }
+  .section3{
+    background-image: url("../img/top_3.jpg");
+    background-size: cover;
+    background-position: center ;
+  }
+  .section4{
+    background-image: url("../img/top_4.jpg");
+    background-size: cover;
+    background-position: center ;
+  }
+  .section5{
+    background-image: url("../img/top_5.jpg");
+    background-size: cover;
+    background-position: center ;
+  }
+  .section6{
+    background-image: url("../img/top_6.jpg");
+    background-size: cover;
+    background-position: center ;
+  }
+  .box h1{padding-top:50px;font-size:30px;}
+  .box h2{padding-bottom:20px;font-size:20px;}
+  .box p{padding:20px 0px;font-size:13px; line-height: 2em;}
+  .jumbo {
+    background-color: rgba(190, 190, 190,0.8);
+    padding:30px 30px;
+  }
+  .header{
+    width:100%;
+    height:50px;
+    position:fixed;
+    background-color:white;
+    z-index: 10;
+    opacity:0.6;
+  }
+  .header ul{
+    display:flex;
+    list-style: none; 
+    font-family:'Futura';
+  }
+  .header li{
+    padding:0 30px;
+  }
+  .pagetop{
+    width:140px;
+    height:30px;
+    position:fixed;
+    right:0;
+    bottom:0;
+  }
+  .pagetop a{
+    padding:15px;
+    display:block;
+    font-size:12px;
+    background:#000;
+    color:#fff;
+  }
+
+/*Animation _ fadeIn*/
+.fade{
+animation: fadeIn 10s ;
+animation-delay: 3s ;
+animation-fill-mode:forwards;
+color:white;
+font-family:'serif';
+display:block;
+}
+.fade p{
+  padding:0 49%;
+}
+.fade a{
+  padding:0 48%;
+  display:block;
+}
+@keyframes fadeIn { /*animetion-nameで設定した値を書く*/
+0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+}
